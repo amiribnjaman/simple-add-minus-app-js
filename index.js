@@ -26,5 +26,7 @@ minusBtn.addEventListener('click', function(){
     if(count > 0){
         count--;
         show()
+    } else {
+        alert('Something went wrong')
     }
 })
