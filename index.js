@@ -1,3 +1,13 @@
+/*
+*
+* name: A simple add (increment) and minus (decrement) app 
+* description: This is a simple add and minus app using vanilla Javascript
+* author: Amir hosen
+* date: 09/02/22
+*
+*/
+
+
 // Dom selector 
 let countShow = document.getElementById('count');
 let addBtn = document.getElementById('add-btn');
