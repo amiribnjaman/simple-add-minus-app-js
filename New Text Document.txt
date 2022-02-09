@@ -1,0 +1,25 @@
+
+let countShow = document.getElementById('count');
+let addBtn = document.getElementById('add-btn');
+let minusBtn = document.getElementById('minus-btn');
+let heading = document.createElement('h3')
+let count = 0;
+
+show()
+function show() {
+    countShow.appendChild(heading)
+    heading.innerText = count
+}
+addBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+    count++;
+    show()
+})
+
+minusBtn.addEventListener('click', function(e){
+    e.preventDefault();
+    if(count > 0){
+        count--;
+        show()
+    }
+})
